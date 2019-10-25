@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void feed(View view) {
         startActivity(new Intent(MainActivity.this, FeedActivity.class));
     }
+
+    public void post(View view) {
+        startActivity(new Intent(MainActivity.this, PostActivity.class));
+    }
 }
