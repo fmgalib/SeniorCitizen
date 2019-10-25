@@ -107,6 +107,8 @@
             android:padding="15dp">
 
             <TextView
+                android:id="@+id/feed"
+                android:onClick="feed"
                 android:padding="12dp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
